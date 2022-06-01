@@ -194,6 +194,8 @@ app.use((err, req, res, next) => {
     res.status(statusCode).render('error', { err })
 })
 
-app.listen(3000, () => {
- console.log('serving on port 3000')
+// 히로쿠에서 자동적으로 포트를 설정해줌.
+const port = process.env.PORT || 3000
+app.listen(port, () => {
+    console.log(`serving on port ${port}`)
 })
