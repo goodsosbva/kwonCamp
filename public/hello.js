@@ -1,0 +1,1 @@
+alert("hell from the public dir")
