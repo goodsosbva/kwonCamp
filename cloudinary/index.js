@@ -12,7 +12,7 @@ cloudinary.config({
 const storage = new CloudinaryStorage({
     cloudinary,
     params: {
-        folder: 'YelpCamp',
+        folder: 'kwonCamp',
         allowedFormats: ['jpeg', 'jpg', 'png']
     }
 })
